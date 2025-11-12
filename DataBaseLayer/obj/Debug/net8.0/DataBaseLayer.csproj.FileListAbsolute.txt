@@ -1,0 +1,15 @@
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\bin\Debug\net8.0\DataBaseLayer.deps.json
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\bin\Debug\net8.0\DataBaseLayer.dll
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\bin\Debug\net8.0\DataBaseLayer.pdb
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.AssemblyInfoInputs.cache
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.AssemblyInfo.cs
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.dll
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\refint\DataBaseLayer.dll
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.pdb
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\ref\DataBaseLayer.dll
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBaseLayer.csproj.AssemblyReference.cache
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\bin\Debug\net8.0\CoreLayer.dll
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\bin\Debug\net8.0\CoreLayer.pdb
+C:\Users\Jyoti\Downloads\textile-dyes-trader\DataBaseLayer\obj\Debug\net8.0\DataBase.D97539FC.Up2Date
