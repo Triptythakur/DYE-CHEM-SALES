@@ -1,0 +1,158 @@
+﻿@page
+@model DYECHEM.Pages.Component.CarearModel
+@{
+    
+    Layout = "_Layout";
+
+}
+@section Head {
+    <title>Careers at DYE CHEM SALES | Join Our Innovative Textile Dye Team</title>
+    <meta name="description" content="Explore exciting career opportunities at DYE CHEM SALES. Join a team dedicated to innovation, sustainability, and excellence in textile dyes and chemicals.">
+    <meta name="keywords" content="DYE CHEM SALES careers, textile dye jobs, chemical industry jobs, join DYE CHEM SALES, dye chem employment, textile job openings, sustainable dye careers">
+    <meta name="author" content="DYE CHEM SALES">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Tags (For social media) -->
+    <meta property="og:title" content="Careers at DYE CHEM SALES | Work with Us">
+    <meta property="og:description" content="Be a part of DYE CHEM SALES — where innovation meets sustainability in textile dyeing. Apply now for opportunities in the dye and chemical industry.">
+    <meta property="og:image" content="~/Images/Offices.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/career">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://yourdomain.com/career" />
+}
+
+
+<!-- Hero Section -->
+<section class="career-hero text-center text-light d-flex align-items-center justify-content-center"  style=" max-height:80vh;"  >
+    <div class="hero-overlay ">
+        <img src="~/Images/Office.jpg" class="img-fluid opactity-50 h-100 w-100" alt="background"
+             class="img-fluid w-100 h-100 opacity-50"
+             style="object-fit: cover;" />
+    </div>
+    <div class="container position-relative">
+        <h1 class="display-4 fw-bold mb-3 animate-slide">Join DYE CHEM SALES</h1>
+        <p class="lead animate-fade">
+            Be part of an innovative company shaping the future of textile dyes with quality and sustainability.
+        </p>
+        <a href="#openings" class="btn btn-light mt-3 px-4 py-2 fw-semibold shadow-sm animate-pop">View Openings</a>
+    </div>
+</section>
+
+<!-- About DyeCham -->
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="~/Images/back-ground.jpg" alt="DyeCham Factory" class="img-fluid rounded-4 shadow-lg fade-in">
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-3 text-gradient">About DYE CHEM SALES</h2>
+                <p class="text-muted">
+                    At <strong>DYE CHEM SALES</strong>, we specialize in developing premium textile dyes for cotton and denim. 
+                    Our mission is to combine innovation, sustainability, and craftsmanship to deliver vibrant and 
+                    long-lasting colors. 
+                </p>
+                <p class="text-muted">
+                    With state-of-the-art technology and a strong commitment to environmental responsibility, 
+                    we are a trusted partner to global textile manufacturers, fashion houses, and designers.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="openings" class="career-opportunities py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4 text-gradient">Life at DYE CHEM SALES</h2>
+        <p class="text-muted mb-5">
+            At DYE CHEM SALES, we don’t just create colors — we create opportunities, innovation, and growth.
+            Explore what makes working with us a truly inspiring experience.
+        </p>
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="job-card shadow-lg p-4 rounded-4 bg-white">
+                    <h5 class="fw-bold mb-2">Our Work Culture</h5>
+                    <p class="text-muted">
+                        We believe in teamwork, creativity, and respect.
+                        Every idea is valued, and every contribution helps us shape the future of sustainable dyes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="job-card shadow-lg p-4 rounded-4 bg-white">
+                    <h5 class="fw-bold mb-2">Growth & Learning</h5>
+                    <p class="text-muted">
+                        From hands-on training to leadership programs, we invest in your growth.
+                        At DYE CHEM SALES, learning never stops — it evolves with every project.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="job-card shadow-lg p-4 rounded-4 bg-white">
+                    <h5 class="fw-bold mb-2">Innovation at Work</h5>
+                    <p class="text-muted">
+                        Our labs and creative teams constantly explore new technologies and eco-friendly solutions
+                        to bring color to life responsibly and beautifully.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <p class="text-muted mb-3">
+                We’re always excited to meet passionate individuals who want to make a difference.
+            </p>
+            <a href="mailto:Dyechemsales1916@gmail.com" class="btn btn-outline-dark px-4 py-2 fw-semibold shadow-sm">Connect With Us</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Join Us Section -->
+<section class="join-us py-5 text-center text-light">
+    <div class="overlay"></div>
+    <div class="container position-relative">
+        <h2 class="fw-bold mb-3">Grow with Us</h2>
+        <p class="lead mb-4">At DYE CHEM SALES, we believe in nurturing creativity and rewarding excellence.</p>
+        <a href="mailto:Dyechemsales1916@gmail.com" class="btn btn-light px-4 py-2 fw-semibold shadow-sm">Send Your Resume</a>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/jquery.blockUI.js"></script>
+
+    <script type="text/javascript">
+        // Fade-in animation on scroll
+        window.addEventListener('scroll', function () {
+            document.querySelectorAll('.fade-in').forEach(function (el) {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    el.classList.add('visible');
+                }
+            });
+        });
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+}

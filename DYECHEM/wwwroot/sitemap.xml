@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<!-- 🏠 Home Page -->
+	<url>
+		<loc>https://yourdomain.com/</loc>
+		<lastmod>2025-11-10</lastmod>
+		<priority>1.00</priority>
+	</url>
+
+	<!-- ℹ️ About Page -->
+	<url>
+		<loc>https://yourdomain.com/About</loc>
+		<lastmod>2025-11-10</lastmod>
+		<priority>0.90</priority>
+	</url>
+
+	<!-- 🧴 Product Page -->
+	<url>
+		<loc>https://yourdomain.com/Product</loc>
+		<lastmod>2025-11-10</lastmod>
+		<priority>0.90</priority>
+	</url>
+
+	<!-- 📞 Contact Page -->
+	<url>
+		<loc>https://yourdomain.com/Contact</loc>
+		<lastmod>2025-11-10</lastmod>
+		<priority>0.80</priority>
+	</url>
+
+	<!-- 👩‍💼 Career Page -->
+	<url>
+		<loc>https://yourdomain.com/Carear</loc>
+		<lastmod>2025-11-10</lastmod>
+		<priority>0.70</priority>
+	</url>
+
+</urlset>

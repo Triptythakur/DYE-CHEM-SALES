@@ -1,0 +1,15 @@
+﻿# robots.txt for DYE CHEM SALES
+# Batata hai search engines ko kaunse pages crawl karne hain
+
+User-agent: *
+Allow: /
+
+# Private ya unnecessary folders ko block karo
+Disallow: /bin/
+Disallow: /obj/
+Disallow: /node_modules/
+Disallow: /temp/
+Disallow: /admin/
+
+# Sitemap link (update after deployment)
+Sitemap: https://yourdomain.com/sitemap.xml

@@ -1,0 +1,206 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page - DYE CHEM SALES | Premium Textile Dyes & Chemicals";
+}
+
+<!-- ✅ SEO Meta Tags (Safe for ASP.NET Razor Page) -->
+@section Head {
+    <meta name="description" content="Welcome to DYE CHEM SALES — your trusted partner for high-quality textile dyes, chemicals, and colorants. Perfect for cotton, denim, and industrial use." />
+    <meta name="keywords" content="textile dyes, dyechem, chemicals, cotton dyes, denim dyes, industrial colorants, dye suppliers" />
+    <meta name="author" content="DYE CHEM SALES" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.dyechemsales.com/" />
+
+    <!-- ✅ Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="DYE CHEM SALES - Premium Textile Dyes & Chemicals" />
+    <meta property="og:description" content="Premium textile dyes for cotton and denim. Vibrant colors, reliable delivery, and consistent performance with DYE CHEM SALES." />
+    <meta property="og:image" content="https://www.dyechemsales.com/images/back-ground.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.dyechemsales.com/" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DYE CHEM SALES - Textile Dyes & Chemicals" />
+    <meta name="twitter:description" content="Trusted supplier of premium dyes for cotton and denim industries." />
+    <meta name="twitter:image" content="https://www.dyechemsales.com/images/preview.jpg" />
+
+
+
+    <!-- ✅ JSON-LD Structured Data (for Google Knowledge Graph) -->
+   <script type="application/ld+json">
+@Html.Raw(@"{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""Organization"",
+  ""name"": ""DyeChem Sales"",
+  ""url"": ""https://www.dyechemsales.com/"",
+  ""logo"": ""https://www.dyechemsales.com/images/logo.png"",
+  ""description"": ""Premium quality textile dyes and chemicals for cotton, denim, and industrial applications."",
+  ""sameAs"": [
+    ""https://www.facebook.com/dyechem"",
+    ""https://www.linkedin.com/company/dyechem""
+  ],
+  ""contactPoint"": {
+    ""@type"": ""ContactPoint"",
+    ""telephone"": ""+91-XXXXXXXXXX"",
+    ""contactType"": ""Customer Service"",
+    ""areaServed"": ""IN""
+  }
+}")
+</script>
+
+}
+
+<!-- ===== Modern Animated Homepage (completely redesigned) ===== -->
+<div class="site-wrap">
+    <!-- HERO -->
+    <section class="hero mt-md-5 pt-md-5">
+        <div class="hero-left">
+            <div class="eyebrow reveal">Trusted Trading • Cotton & Denim Colors</div>
+            <h1 class="hero-title reveal">
+                Coloring Cotton & Denim with
+                <span style="background:linear-gradient(90deg,var(--accent-1),var(--accent-2));-webkit-background-clip:text;color:transparent;">
+                    Excellence
+                </span>
+            </h1>
+            <p class="lead reveal">
+                Premium textile dyes for cotton and denim — vibrant shades, consistent quality, and long-lasting performance.
+                Crafted for manufacturers, designers, and retailers who want dependability and superior color fastness.
+            </p>
+            <div class="cta-row reveal">
+                <button class="btn-cta" onclick="location.href='#services'">View Services</button>
+                <button class="btn-cta btn-outline" onclick="location.href='#contact'">Contact Sales</button>
+            </div>
+            <div class="hero-sub reveal">
+                Sourced responsibly • Tested for consistency • Shipped on time
+            </div>
+        </div>
+
+        <div class="hero-right reveal">
+            <div class="visual-card" role="img" aria-label="Sample product visual">
+                <div class="visual-media" style="background-image:url('/images/Shades.png');"></div>
+                <div class="palette-strip">
+                    <span style="background:#0e6f6e"></span>
+                    <span style="background:#f6e91a"></span>
+                    <span style="background:#f2c028"></span>
+                    <span style="background:#f57d24"></span>
+                    <span style="background:#f2633e"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- ABOUT -->
+<section class="about">
+    <div class="about-left reveal">
+        <img src="~/Images/Clothes.jpg" alt="High-quality textile clothes" loading="lazy">
+    </div>
+    <div class="about-right reveal">
+        <h3 style="margin-top:0;">We supply high-quality dyes for cotton and denim</h3>
+        <p>Our product range is formulated to deliver brilliant shades and excellent wash/light fastness — ideal for manufacturers and designers seeking consistent color across batches.</p>
+        <p class="muted">With a strong focus on quality, reliability, and continuous innovation, our dyes meet stringent industry standards. Partner with us to bring excellence, sustainability, and trust to your fabric dyeing process.</p>
+        <p><a class="link" href="#services">Explore our product catalog →</a></p>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+    <div class="feature-row reveal">
+        <div class="feature-img">
+            <img src="~/Images/Search.jpg" class="img-fluid" alt="Tailored dye solutions for fabrics" style="width:100%; display:block;">
+        </div>
+        <div class="content">
+            <h4>Tailored Solutions for Every Fabric</h4>
+            <p class="lead">We help businesses bring creative color concepts to life — from small-batch designers to large textile mills. Our technical support ensures correct shade matching and reproducible results.</p>
+        </div>
+    </div>
+
+    <div class="feature-row reveal">
+        <div class="feature-img">
+            <img src="~/Images/Jeans.jpg" class="img-fluid" alt="Reliable dye supply for denim" style="width:100%; display:block;">
+        </div>
+        <div class="content">
+            <h4>Premium Dyes, Reliable Delivery</h4>
+            <p class="lead">We specialize in reliable supply and logistics, keeping your production running smoothly without interruptions.</p>
+            <p class="small muted">Ideal for daily-wear cottons as well as premium denim ranges.</p>
+        </div>
+    </div>
+</section>
+
+<!-- VALUES -->
+<section class="values reveal" aria-label="Core values">
+    <div class="glass-card">
+        <img src="~/Images/Shade-Color.jpg" alt="Trust - DyeChem Sales">
+        <h4>Trust</h4>
+        <p class="small muted">A partner you can rely on for quality and consistency.</p>
+        <p style="margin-top:8px;"><a class="link" href="#">View details »</a></p>
+    </div>
+    <div class="glass-card">
+        <img src="~/Images/Shade-Colors.jpg" alt="Excellence - DyeChem Sales">
+        <h4>Excellence</h4>
+        <p class="small muted">Premium dyes with unmatched color performance.</p>
+    </div>
+    <div class="glass-card">
+        <img src="~/Images/Image-Card-First.jpg" alt="Reliability - DyeChem Sales">
+        <h4>Reliability</h4>
+        <p class="small muted">Consistent shades and timely delivery for every order.</p>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="reveal">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:18px; margin-bottom:18px;">
+        <h2 style="margin:0;" class="text-primary">What We Offer</h2>
+        <div class="small muted">High-performance dyes • Technical support • Fast shipping</div>
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <img src="~/Images/reliability.png" alt="Reliable dye supplier" style="height:80px; margin-bottom:12px;">
+            <h5>Reliability</h5>
+            <p class="muted">Consistent supply and assured quality in every order.</p>
+        </div>
+        <div class="service">
+            <img src="~/Images/link.png" alt="Aesthetic dye colors" style="height:80px; margin-bottom:12px;">
+            <h5>Aesthetics</h5>
+            <p class="muted">Colors that enhance the look of every fabric.</p>
+        </div>
+        <div class="service">
+            <img src="~/Images/feature.png" alt="High performance dye features" style="height:80px; margin-bottom:12px;">
+            <h5>Features</h5>
+            <p class="muted">High-performance dyes with rich, lasting shades.</p>
+        </div>
+    </div>
+</section>
+
+<!-- JS Animation (unchanged) -->
+<script>
+    (function(){
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if(e.isIntersecting) {
+                    e.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    })();
+
+    (function(){
+        const v = document.querySelector('.visual-card');
+        if(!v) return;
+        const limit = 10;
+        document.querySelector('.hero-right').addEventListener('mousemove', (ev) => {
+            const r = v.getBoundingClientRect();
+            const cx = r.left + r.width/2;
+            const cy = r.top + r.height/2;
+            const dx = (ev.clientX - cx) / r.width;
+            const dy = (ev.clientY - cy) / r.height;
+            v.style.transform = `rotateX(${ -dy * limit }deg) rotateY(${ dx * limit }deg) scale(1.02)`;
+        });
+        document.querySelector('.hero-right').addEventListener('mouseleave', () => {
+            v.style.transform = '';
+        });
+    })();
+</script>
